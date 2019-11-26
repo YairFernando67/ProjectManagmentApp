@@ -24,6 +24,7 @@
   --spacing-extra-extra-extra-large: 16rem;
 }
 
+<<<<<<< HEAD
 @import "froala_editor.min";
 @import "froala_style.min";
 @import "font-awesome-sprockets";
@@ -42,6 +43,8 @@
 @import 'plugins/special_characters.min.css';
 @import 'plugins/table.min.css';
 @import 'plugins/video.min.css';
+=======
+>>>>>>> 2fec631f77ee41b9a8bb9f4796b57ccb48a0d1e7
 @import "bulma";
 
 /* Functional Styles: http://tachyons.io/docs/ */
@@ -199,3 +202,9 @@
 .notification:not(:last-child) {
 	margin-bottom: 0;
 }
+<<<<<<< HEAD
+=======
+
+@import "teams";
+@import "projects";
+>>>>>>> 2fec631f77ee41b9a8bb9f4796b57ccb48a0d1e7
