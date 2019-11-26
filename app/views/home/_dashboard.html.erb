@@ -4,11 +4,11 @@
     <div class="column border-right ph4">
       <div class="level">
         <div class="level-left">
-          <h3 class="subtitle is-5">My Projects <span class="tag is-rounded">0</span> </h3>
+          <h3 class="subtitle is-5">My Projects <span class="tag is-rounded"><%= @projects.count %></span> </h3>
         </div>
         <div class="level-right">
           <p class="field">
-            <%= link_to "#", class: "button is-small" do %>
+            <%= link_to new_project_path, class: "button is-small" do %>
             <span class="icon is-small has-text-link"><i class="fa fa-plus"></i></span>
             <% end %>
           </p>
@@ -33,7 +33,7 @@
         </div>
         <div class="level-right">
           <p class="field">
-            <%= link_to "#", class: "button is-small" do %>
+            <%= link_to new_team_path, class: "button is-small" do %>
             <span class="icon is-small has-text-link"><i class="fa fa-plus"></i></span>
             <% end %>
           </p>
